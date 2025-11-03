@@ -22,7 +22,7 @@ git clone https://github.com/leondc13/2GIS_test_assignment.git
 2. Установите зависимости:
 pip install -r requirements.txt
 
-3. Добавьте свой API-ключ в settings.py
+3. Добавьте свой API-ключ в settings.py (см. https://docs.2gis.com/platform-manager/subscription/keys#demo)
 
 ## Запуск тестов (+ отчет allure):
 pytest -v --alluredir=allure-results && allure serve allure-results
@@ -41,6 +41,7 @@ test_search.py:
 
 test_search_and_route.py:
 - Интеграция: поиск ближайшей АЗС → построение маршрута к ней
+
 
 
 
