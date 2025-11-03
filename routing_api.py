@@ -20,5 +20,5 @@ def build_route(start, end):
 
     params = {"key": settings.API_KEY}
 
-    response = requests.post(settings.BASE_URL, params=params, json=payload)
+    response = requests.post(settings.BASE_URL_ROUTE, params=params, json=payload)
     return response
