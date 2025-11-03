@@ -28,16 +28,17 @@ pytest -v --alluredir=allure-results && allure serve allure-results
 
 ## Набор тестов
 
-test_routing.py	
+test_routing.py:
 - Позитивное построение маршрута
 - Ошибочные координаты
 - Отсутствие API-ключа
 
-test_search.py	
+test_search.py:
 - Поиск кафе в Москве
 - Поиск с дополнительными полями
 - Неверный ключ
 
-test_search_and_route.py	
+test_search_and_route.py:
 - Интеграция: поиск ближайшей АЗС → построение маршрута к ней
+
 
